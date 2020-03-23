@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1298e3c7816907e4185ffe86429bf2af, type: 3}
+  m_Name: MapConfig
+  m_EditorClassIdentifier: 
+  settings:
+  - prefabAsteroid: {fileID: 100000, guid: 7d5f7699d6d1d48e485ac71126e12061, type: 3}
+    countWin: 5
+    waveSpawn: 6
+    waveAsteroids: 8
+  - prefabAsteroid: {fileID: 100002, guid: 9143e2b62ad50488482f9b73672fc331, type: 3}
+    countWin: 8
+    waveSpawn: 4
+    waveAsteroids: 10
+  - prefabAsteroid: {fileID: 100002, guid: 834bfaee90a9d4e04b1e8c1ca22cc88e, type: 3}
+    countWin: 10
+    waveSpawn: 2
+    waveAsteroids: 12
